@@ -1,0 +1,1 @@
+docker exec -it rush_game-server_1 bash

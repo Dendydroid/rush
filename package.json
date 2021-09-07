@@ -1,0 +1,11 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "(php processes/tick.php) & (nodemon -L -V index.php)"
+  },
+  "author": "Dendydroid",
+  "license": "ISC"
+}

@@ -1,0 +1,15 @@
+{
+  "verbose": false,
+  "ignore": [
+    "vendor"
+  ],
+  "execMap": {
+    "php": "php"
+  },
+  "restartable": "r",
+  "ext": "php",
+  "events":{
+    "crash": "killall php",
+    "restart": "killall php"
+  }
+}
